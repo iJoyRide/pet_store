@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Navbar: React.FC = () => {
   return (
-    <div>
+    <div className="navbar">
       <div className="brand">Pet Store</div>
       <div className="hamburger">
         <Menu />
